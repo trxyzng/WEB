@@ -17,14 +17,14 @@ close_btn.onclick = function () {
 ///////////////////////
 //up to top button
 
-up_button = document.getElementById("up-button");
+up_btn = document.getElementById("up-button");
 screen = document.getElementById("screen");
 
-up_button.onclick = function () {
+up_btn.onclick = function () {
     screen.scrollTo(0, 0);
 }
 
 
-let h = window.innerHeight;
+/* let h = window.innerHeight;
 let w = window.innerWidth;
-alert(w+"x"+h);
+alert(w+"x"+h); */
