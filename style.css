@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+:root {
+    --nav-height: 50px;
+    --nav-icon-height: calc((var(--nav-height) - 32px) / 2);
+}
+
+body {
+    display: block;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*navigation bar*/
+#nav-menu {
+    text-decoration: none;
+    background-color: #B1F1B2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: var(--nav-height);
+    width: calc(99.3vw);
+    position: fixed;
+
+}
+
+div.nav-bar {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#banner-logo {
+    height: 40px;
+    width: 130px;
+    padding-left: 60px;
+    margin-right: 50px;
+    position: relative;
+    top: 6px;
+}
+
+.nav-icon {
+    height: 32px;
+    width: 32px;
+    padding: var(--nav-icon-height) 20px; 
+}
+
+.nav-icon:hover {
+    background-color: rgb(229, 214, 178);
+}
+
+#look-icon {
+    display: none;
+}
+
+#search-block {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#search-field {
+    height: 32px;
+    width: 175px;
+    padding: 0 5px;
+}
+
+#search-button, #search-icon {
+    height: 32px;
+}
+
+#search-button:hover {
+    background-color: rgb(229, 214, 178);
+}
+
+/*seach block for mobile*/
+#modal-box {
+    display: none;
+    height: 0;
+}
+
+#modal-search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -50px;
+    background-color: #B1F1B2;
+    padding: 9px 0px;
+}
+
+#search-field-modal {
+    height: 32px;
+    width: 70vw;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#close-icon {
+    height: 32px;
+    margin-left: 2vw;
+    background-color: white;
+    border-radius: 7px;
+}
+
+
+/*content*/
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact {
+    height: 92vh;
+}
+
+#screen {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+#home {
+    background-color: green;
+}
+
+#introduction {
+    background-color: blue;
+}
+
+#a3 {
+    background-color: brown;
+}
+
+#a4 {
+    background-color: yellow;
+}
+
+#a5 {
+    background-color: purple;
+}
+
+#contact {
+    background-color: orange;
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+::-webkit-scrollbar {
+    width: 0.7vw;
+    background-color: whitesmoke;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+  }
+
+  
+#up-button {
+    position: relative;
+    bottom: 4vw;
+    margin-left: 93vw;
+    height: 2vw;
+    width: 2vw;
+}
+
+#up-button:hover {
+    background-color: white;
+}
