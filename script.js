@@ -22,6 +22,7 @@ screen = document.getElementById("screen");
 
 up_btn.onclick = function () {
     screen.scrollTo(0, 0);
+    up_btn.style.background = "";
 }
 
 
