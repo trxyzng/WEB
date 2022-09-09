@@ -121,6 +121,9 @@ div.nav-bar {
     border-radius: 7px;
 }
 
+input {
+    color: black;
+}
 
 /*content*/
 
@@ -133,10 +136,6 @@ section {
     justify-content: center;
 }
 
-#contact {
-    height: 92vh;
-}
-
 #screen {
     height: 100vh;
     overflow-y: scroll;
@@ -145,27 +144,28 @@ section {
 }
 
 #home {
-    background-color: green;
+    background-color: #41b045;
 }
 
-#introduction {
-    background-color: blue;
+#tutorial {
+    background-color: #5254c7;
 }
 
-#a3 {
-    background-color: brown;
+#play {
+    background-color: #f05476;
 }
 
-#a4 {
-    background-color: yellow;
+#random {
+    background-color: #ebe84d;
 }
 
-#a5 {
-    background-color: purple;
+#information {
+    background-color: #eba44d;
 }
 
 #contact {
-    background-color: orange;
+    background-color: #eb7a4d;
+    height: 92vh;
 }
 
 h1 {
@@ -178,7 +178,7 @@ h1 {
   }
   
   ::-webkit-scrollbar-thumb {
-    background: gray;
+    background: #C1C1C1;
   }
 
   

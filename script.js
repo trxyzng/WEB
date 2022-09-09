@@ -4,6 +4,7 @@ nav_menu = document.getElementById("nav-menu")
 search_modal = document.getElementById("modal-box");
 open_btn = document.getElementById("look-icon");
 close_btn = document.getElementById("close-icon")
+home = document.getElementById("home")
 
 open_btn.onclick = function () {
     search_modal.style.display = "block";
@@ -26,6 +27,6 @@ up_btn.onclick = function () {
 }
 
 
-/* let h = window.innerHeight;
+let h = window.innerHeight;
 let w = window.innerWidth;
-alert(w+"x"+h); */
+alert(w+"x"+h);
