@@ -3,8 +3,7 @@
 nav_menu = document.getElementById("nav-menu")
 search_modal = document.getElementById("modal-box");
 open_btn = document.getElementById("look-icon");
-close_btn = document.getElementById("close-icon")
-home = document.getElementById("home")
+close_btn = document.getElementById("close-icon");
 
 open_btn.onclick = function () {
     search_modal.style.display = "block";
