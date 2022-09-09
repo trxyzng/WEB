@@ -24,8 +24,3 @@ up_btn.onclick = function () {
     screen.scrollTo(0, 0);
     up_btn.style.background = "";
 }
-
-
-let h = window.innerHeight;
-let w = window.innerWidth;
-alert(w+"x"+h);
